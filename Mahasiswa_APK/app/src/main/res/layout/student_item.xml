@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewLabelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama :"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewLabelName"
+        android:layout_alignBaseline="@id/textViewLabelName"
+        android:layout_marginLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewLabelNIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM :"
+        android:layout_below="@id/textViewLabelName"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewNIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewLabelNIM"
+        android:layout_alignBaseline="@id/textViewLabelNIM"
+        android:layout_marginLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewLabelIPK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPK :"
+        android:layout_below="@id/textViewLabelNIM"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewIPK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewLabelIPK"
+        android:layout_alignBaseline="@id/textViewLabelIPK"
+        android:layout_marginLeft="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewLabelSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Matkul :"
+        android:layout_below="@id/textViewLabelIPK"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewLabelSubject"
+        android:layout_alignBaseline="@id/textViewLabelSubject"
+        android:layout_marginLeft="4dp"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewLabelSubject"
+        android:layout_marginTop="8dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_below="@id/buttonDelete"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+</RelativeLayout>

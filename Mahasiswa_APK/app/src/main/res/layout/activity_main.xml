@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8DC"
+    tools:context=".MainActivity">
+
+<EditText
+android:id="@+id/editTextName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Nama"
+android:layout_margin="8dp" />
+
+<EditText
+android:id="@+id/editTextNIM"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="NIM"
+android:layout_below="@id/editTextName"
+android:layout_margin="8dp" />
+
+<EditText
+android:id="@+id/editTextIPK"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="IPK"
+android:inputType="numberDecimal"
+android:layout_below="@id/editTextNIM"
+android:layout_margin="8dp" />
+
+<EditText
+android:id="@+id/editTextSubject"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Mata Kuliah"
+android:layout_below="@id/editTextIPK"
+android:layout_margin="8dp" />
+
+<Button
+android:id="@+id/buttonAdd"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Tambah"
+android:layout_centerHorizontal="true"
+android:layout_alignParentBottom="true"
+android:layout_marginBottom="16dp" />
+
+<Button
+android:id="@+id/buttonViewAll"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Lihat Semua"
+android:layout_below="@id/editTextSubject"
+android:layout_toRightOf="@id/buttonAdd"
+android:layout_alignParentBottom="true"
+android:layout_marginBottom="16dp"
+android:layout_marginLeft="16dp" />
+
+<androidx.recyclerview.widget.RecyclerView
+android:id="@+id/recyclerView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@id/editTextSubject"
+android:layout_above="@id/buttonAdd"
+android:layout_marginTop="16dp"
+android:layout_marginBottom="8dp" />
+
+</RelativeLayout>

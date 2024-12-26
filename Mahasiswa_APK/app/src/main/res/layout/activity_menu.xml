@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFF00">
+
+    <Button
+        android:id="@+id/buttonInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF0000"
+    android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/buttonShowData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Data"
+        android:layout_below="@id/buttonInput"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF0000"
+    android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
