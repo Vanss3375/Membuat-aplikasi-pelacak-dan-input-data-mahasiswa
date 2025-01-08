@@ -1,4 +1,4 @@
-#There is 2 application project
+# There is 2 application project
 
 #location App is some application for detect some location with Coordinate (latitude & longtitude)
   1.There is point interest like Alun-alun bandung, Braga, etc.
@@ -12,7 +12,7 @@
      - Show data for see the output display from input data before in Input data feature
     
 
-#How to use this program :
+# How to use this program :
   1. Download this zip -> then extract to folder file
   2. Download / open Android Studio app
   3. Select Java languanges
@@ -23,5 +23,5 @@
   9. running the program.
 
 
-#there is demo file and explanation about the program
+# there is demo file and explanation about the program
   
