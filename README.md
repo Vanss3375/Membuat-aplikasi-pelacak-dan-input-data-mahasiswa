@@ -26,4 +26,4 @@
 # there is demo file and explanation about the program
 ![video demo aplikasi] (https://github.com/Vanss3375/Membuat-aplikasi-pelacak-dan-input-data-mahasiswa/blob/main/Video%20demo%20aplikasi-20241226T151837Z-001.zip)
 
-![](https://github.com/Vanss3375/Membuat-aplikasi-pelacak-dan-input-data-mahasiswa)
+![](https://github.com/Vanss3375/Membuat-aplikasi-pelacak-dan-input-data-mahasiswa/blob/main/Screenshot_2025-01-07-00-37-10-307_com.google.android.apps.docs.jpg)
